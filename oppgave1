@@ -10,5 +10,30 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Hva jeg kan</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Velkommen til min nettside</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Hjem</a></li>
+          <li><a href="#about">Om oss</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Hei!</h2>
+      <p>Dette er en paragraf med litt tekst.</p>
+      <img
+        src="./Katt-Williams-photo-by-Jason-Davis-via-Getty-Images.webp"
+        alt="Katt Williams"
+      />
+      <p>Her er et bilde av Katt Williams</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Min nettside. Alle rettigheter reservert.</p>
+    </footer>
+  </body>
 </html>
