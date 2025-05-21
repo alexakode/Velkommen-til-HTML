@@ -29,7 +29,10 @@
         src="./Katt-Williams-photo-by-Jason-Davis-via-Getty-Images.webp"
         alt="Katt Williams"
       />
-      <p>Her er et bilde av Katt Williams</p>
+      <p>
+        Her er et bilde av Katt Williams. Bildet ble lastet ned i ei
+        undervisningsøkt og er lenket i en relativ mappe.
+      </p>
     </main>
 
     <footer>
