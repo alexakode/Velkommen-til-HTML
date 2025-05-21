@@ -2,3 +2,18 @@
   writing-mode: vertical-rl; /* Vertical text, right-to-left */
   text-orientation: upright; /* Ensures characters remain upright */
 }
+
+.roboto-flex-paragraph {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+p {
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
