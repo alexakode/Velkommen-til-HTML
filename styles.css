@@ -1,6 +1,9 @@
 .CJK {
   writing-mode: vertical-rl; /* Vertical text, right-to-left */
   text-orientation: upright; /* Ensures characters remain upright */
+  /*width: stretch;*/
+  height: auto;
+  overflow-wrap: break-word;
 }
 .roboto-flex-paragraph {
   font-family: "Roboto Flex", sans-serif;
@@ -106,11 +109,16 @@ img {
 .item {
   flex-basis: content;
   flex: 2 1 0;
-  flex-flow: column;
+  flex-flow: column wrap;
   margin: 10px;
   padding: 20px;
   background-color: #eaddff;
   color: 1d1b20;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.foreign {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
 }
