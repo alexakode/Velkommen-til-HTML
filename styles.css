@@ -58,3 +58,8 @@ h2 {
   margin-left: -0.36em;
   margin-right: -0.15em;
 }
+em:lang(zh) {
+  font-style: normal;
+  text‑emphasis: dot;
+  text‑emphasis‑position: over right;
+}
