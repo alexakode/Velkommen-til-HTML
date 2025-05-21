@@ -16,7 +16,7 @@
     />
     <title>Hva jeg kan</title>
   </head>
-  <body>
+  <body class="site">
     <header>
       <h1>Velkommen til min nettside</h1>
       <nav class="navbar">
@@ -38,6 +38,14 @@
       <div class="item">
         <h2>Hei!</h2>
         <p>Dette er en paragraf med litt tekst.</p>
+        <p>
+          Jeg har lagd fargetema til denne nettsiden i Figma, der jeg matet
+          bildet inn i
+          <a
+            href="https://www.figma.com/community/plugin/1034969338659738588/material-theme-builder"
+            >Material Theme builder</a
+          >.
+        </p>
       </div>
       <div class="item">
         <h2>Recap fra undervisningsøkta</h2>
@@ -81,8 +89,19 @@
         <p>
           Jeg er vant til
           <span class="latex">L<sup>A</sup>T<sub>E</sub>X</span> og Metafont.
-          Derfor syns jeg flex er litt kult. I CSS kan jeg bygge inn én
-          skrifttype og justere diverse parameter.
+          Derfor syns jeg flex-parameter i CSS-skrifttyper er litt kult. I CSS
+          kan jeg bygge inn én skrifttype og justere diverse parameter.
+          Flex-skrifter er ikke det samme som Flexbox, selv om begge deler kan
+          beskrives i CSS.
+        </p>
+        <p>
+          Jeg har ikke lært Javascript ennå.
+          <button type="button" onclick="visMelding()">Eller?</button>
+          <script>
+            function visMelding() {
+              alert("Jeg kan kanskje lage en enkel knapp med en melding!");
+            }
+          </script>
         </p>
       </div>
     </main>
