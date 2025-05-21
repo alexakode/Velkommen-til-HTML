@@ -21,6 +21,17 @@ p {
   padding: 1em;
   border-radius: 10px;
 }
+a {
+  color: #1d1b20;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  /*background-color: #fef7ff;*/
+  /*padding: 1em;
+  border-radius: 10px;*/
+}
 h1 {
   color: #4f378b;
   font-family: "Roboto Flex", sans-serif;
@@ -72,6 +83,17 @@ img {
   height: auto;
   width: auto;
   border-radius: 10px;
+}
+.navbar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3edf7;
+  padding: 10px;
+}
+.navitem {
+  background-color: fef7ff;
 }
 .container {
   display: flex;
