@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="no">
+  <!-- Legg merke til at HTML er sensitiv for store og små bokstaver. -->
+  <!-- Lag en nettside med de viktigste HTML-elementene
+    Sørg for å inkludere en header, main og footer. Bruk struktur for overskrifter, avsnitt og bilder. Endre farger, skriftegenskaper, margin og padding i CSS. -->
+  <!-- Angir tegnsett -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Hva jeg kan</title>
+  </head>
+  <body></body>
+</html>
