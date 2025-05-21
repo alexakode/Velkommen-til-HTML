@@ -1,4 +1,4 @@
-#CJK {
+.CJK {
   writing-mode: vertical-rl; /* Vertical text, right-to-left */
   text-orientation: upright; /* Ensures characters remain upright */
 }
